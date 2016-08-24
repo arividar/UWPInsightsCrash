@@ -16,7 +16,7 @@ namespace TheApp
 
         void OnCrashButtonClicked(object sender, EventArgs args)
         {
-            throw new Exception("Hey! I am not handled by anyone!");
+            throw new Exception("Hey! I'm not caught by anywhere! Crash!");
         }
     }
 }
